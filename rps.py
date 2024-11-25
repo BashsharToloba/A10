@@ -4,7 +4,14 @@
 
 import random
 
-user_action = input("Enter throw (rock, paper, scissors): ")
+while true:
+
+user_action = input("Enter throw (rock, paper, scissors):  or 'quit' to stop")
+
+if user_action = "quit":
+print("Goodbye")
+break
+
 ai_action = random.choice(["rock", "paper", "scissors"])
 
 print(f"\nYou chose {user_action}, AI chose {ai_action}.\n")
